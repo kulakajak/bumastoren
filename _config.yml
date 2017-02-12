@@ -24,4 +24,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
+  - deploy.sh
 port: 4001

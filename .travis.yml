@@ -1,6 +1,7 @@
-language: generic # don't install any environment
-
+language: ruby
 script: bash ./deploy.sh
+rvm:
+  - 2.2
 env:
   global:
   - ENCRYPTION_LABEL: "795ee419e4ae"
