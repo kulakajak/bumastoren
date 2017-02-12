@@ -27,3 +27,44 @@ exclude:
   - vendor
   - deploy.sh
 port: 4001
+prose:
+  ignore:
+    - Gemfile
+    - Gemfile.lock
+    - vendor
+    - deploy.sh
+    - deploy_key.enc
+    - .gitignore
+    - .travis.yml
+    - _config.yml
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
