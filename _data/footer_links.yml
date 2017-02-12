@@ -1,0 +1,10 @@
+produkt:
+  - title: Neue sonnenstoren
+    path: neue_sonnenstoren/index.md
+  - title: Stoffersatz fur sonnen
+    path: stoffersatz_fur_sonnenstoren/index.md
+
+dienstleistungen:
+  - title: Rennovation klappladen
+    path: renovation_holz-klappladen/index.md
+

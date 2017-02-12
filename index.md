@@ -1,6 +1,20 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: carousel
+carousel_paths:
+  - renovation_holz-klappladen/index.md
+  - stoffersatz_fur_sonnenstoren/index.md
+  - neue_sonnenstoren/index.md
+carousel_link_text: Weiterlesen
+carousel_link_text: 'More Info'
+main_text: We love to create sites
+main_description: We do that every day
+clients:
+  - image: /assets/images/stobag.png
+    text: Stobag
+  - image: /assets/images/markilux.png
+    text: Markilux
+bottom_image: /assets/images/neue sonnenstoren.jpg
+bottom_text: Maximale Qualität zu top Preisen
 ---
+
+Bumastoren
